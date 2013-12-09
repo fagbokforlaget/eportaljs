@@ -1,0 +1,19 @@
+{
+  "name": "eportaljs",
+  "version": "0.0.1",
+  "description": "Eportal book API wrapper",
+  "main": "index.js",
+  "scripts": {
+    "test": "make test"
+  },
+  "repository": "",
+  "author": "Deepak Thukral <deepak.thukral@fagbokforlaget.no>",
+  "license": "MIT",
+  "dependencies": {
+    "urllib": "~0.5.4"
+  },
+  "devDependencies": {
+    "vows": "~0.7.0",
+    "jscoverage": "~0.3.8"
+  }
+}
