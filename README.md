@@ -1,4 +1,4 @@
-## pdftohtmljs - pdf2htmlEx shell wrapper for Node.js
+## eportaljs - e-portal books api js wrapper
 [![Build Status](https://travis-ci.org/fagbokforlaget/eportaljs.png)](https://travis-ci.org/fagbokforlaget/eportaljs)
 e-portaljs provides an interface to OAuth based e-Portal restful api. Currently it only supports two-legged authentication mechanism and book resource.
 
