@@ -7,13 +7,13 @@
     "test": "make test"
   },
   "repository": "",
-  "author": "Deepak Thukral <deepak.thukral@fagbokforlaget.no>",
+  "author": "Deepak Thukral <iapain@iapa.in>",
   "license": "MIT",
   "dependencies": {
     "urllib": "~0.5.4"
   },
   "devDependencies": {
-    "vows": "~0.7.0",
+    "mocha": "*",
     "jscoverage": "~0.3.8"
   }
 }

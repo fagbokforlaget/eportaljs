@@ -4,14 +4,14 @@ test:
 		@NODE_ENV=test ./node_modules/.bin/mocha -u bdd --timeout 5s --reporter $(REPORTER)
 
 test-jenkins-xunit:
-		@mocha --timeout 5s -R xunit
+		@./node_modules/.bin/mocha --timeout 5s -R xunit
 
 test-cov: lib-cov
 		@EPORTALJS_COV=1 $(MAKE) test REPORTER=html-cov > test/coverage.html
 
 lib-cov:
 		@rm -fr ./$@
-		@jscoverage --no-highlight lib $@
+		@./node_modules/.bin/jscoverage --no-highlight lib $@
 
 clean:
 		rm -f test/coverage.html

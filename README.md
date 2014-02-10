@@ -25,7 +25,7 @@ eportalClient.addBook(book, function (err, data) {
 ### Tests
 ```
 $ npm test
-$ npm test-cov
+$ make test-cov
 
 ```
 MIT License

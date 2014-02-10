@@ -1,6 +1,6 @@
 var assert = require('assert')
   , mock = require('./mock')
-  , eportal = require('../lib/client')
+  , eportal = require('../index')
   , params = {
       auth_host: "http://localhost:9191",
       eportal_host: "http://localhost:9191/v01/dbok",
