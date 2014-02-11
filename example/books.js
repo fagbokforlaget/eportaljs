@@ -1,9 +1,9 @@
 var eportal = require('../lib/client.js')
   , book = {
-    "ExternalID": "5297c4243dfc94ca540022e0",
+    "id": "5297c4243dfc94ca540022e0",
     "title": "New York City",
-    "IconUrl": "http://myiconsite.com/pages/book.png",
-    "AccessUrl": "http://mycontentsite.com/book.epub"
+    "cover": "http://myiconsite.com/pages/book.png",
+    "url": "http://mycontentsite.com/book.epub"
   }
   , params = {
       auth_host: "https://eportalhost.com/",

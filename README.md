@@ -14,7 +14,8 @@ npm install eportaljs
 ### Usage
 ```
 var eportal = require('eportaljs')
-  , params = {api_host: "somewhere", api_key: "key", api_secret: "secret"};
+  , params = {api_host: "somewhere", api_key: "key", api_secret: "secret"}
+  , book = {"id": "100", "title": "Cool book", "cover": "cover url", "url": "book url"};
 
 var eportalClient = new eportal(params);
 
